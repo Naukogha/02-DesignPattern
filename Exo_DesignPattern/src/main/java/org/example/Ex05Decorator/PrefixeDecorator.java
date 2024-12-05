@@ -7,6 +7,6 @@ public class PrefixeDecorator extends TextDecorator{
 
     @Override
     public String transform(){
-        return text.transform().toUpperCase();
+        return "😁😁"+text.transform();
     }
 }
